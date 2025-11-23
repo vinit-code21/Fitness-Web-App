@@ -5,3 +5,5 @@ const nextConfig = {
     domains: [], // add domains here if using remote images (e.g., "images.unsplash.com")
   },
 };
+
+module.exports = nextConfig;
