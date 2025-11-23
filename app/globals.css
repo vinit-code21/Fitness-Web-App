@@ -1,0 +1,180 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1a1a1a;
+  color: #C1FFF2;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .perspective {
+    perspective: 1000px;
+  }
+  .transform-style {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+ul li {
+  position: relative;
+  list-style: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  overflow: hidden;
+}
+ul li::before,
+ul li::after {
+  content: "";
+  position: absolute;
+  border-radius: 60px;
+  z-index: -1;
+}
+
+/* HOLOGRAPHIC GRADIENT OVERLAY */
+/* HOLOGRAPHIC EFFECT — REFLECTIVE CARD */
+.holographic-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+  z-index: 1;
+  transition: transform 0.4s ease;
+  isolation: isolate;
+}
+
+.holographic-card:hover {
+  transform: scale(1.02);
+}
+
+.holographic-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    130deg,
+    rgba(128, 255, 114, 0.3),
+    rgba(126, 232, 250, 0.2),
+    rgba(255, 255, 255, 0.1)
+  );
+  background-size: 400% 400%;
+  animation: shimmer 6s linear infinite;
+  mix-blend-mode: screen;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease infinite;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+html, body, #__next {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* remove horizontal scroll */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overscroll-behavior: none; /* prevent extra scroll bounce */
+}
+:root {
+  --bg-dark: #0a0f0d;
+  --card-dark: #1b2a26;
+  --accent-green: #80FF72;
+  --accent-cyan: #7EE8FA;
+  --text-light: #ffffff;
+  --text-muted: #b3b3b3;
+}
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Hide native scrollbars but keep scrolling functional
+   - Works on modern browsers (Chrome, Edge, Safari, Firefox)
+   - This keeps internal scrolling available while removing the visible scrollbar UI */
+html, body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* WebKit browsers */
+html::-webkit-scrollbar, body::-webkit-scrollbar, ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+/* Optional: if you want to hide scrollbar only on body but keep other scrollbars (e.g. for modals),
+   you can instead use a `.hide-scrollbar` utility and add it to a container. */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar { display: none; width: 0; height: 0; }
