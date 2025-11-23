@@ -6,7 +6,7 @@ export default function intermediateYoga() {
   const poses = [
     {
       name: "Warrior III (Virabhadrasana III)",
-      img: "/images/YOGA IMAGES/INTERMEDIATE/warrior-3.jpg",
+      img: "/IMAGES/YOGA IMAGES/INTERMEDIATE/warrior-3.jpg",
       detail:
         "Dynamic balance pose that strengthens legs, glutes, and core while challenging stability.",
       video: "https://www.youtube.com/embed/uEc5hrgIYx4?si=IgDlVzkxjK12UOC3",
@@ -20,7 +20,7 @@ export default function intermediateYoga() {
     },
     {
       name: "Side Plank (Vasisthasana)",
-      img: "/images/YOGA IMAGES/INTERMEDIATE/side-plank.jpg",
+      img: "/IMAGES/YOGA IMAGES/INTERMEDIATE/side-plank.jpg",
       detail:
         "Builds core and shoulder strength with strong lateral stability and balance.",
       video: "https://www.youtube.com/embed/_ByCVx-WxfQ?si=TucEkONV7uXWQdZX",
@@ -34,7 +34,7 @@ export default function intermediateYoga() {
     },
     {
       name: "Bridge Pose (Setu Bandhasana)",
-      img: "/images/YOGA IMAGES/INTERMEDIATE/bridge-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/INTERMEDIATE/bridge-pose.jpg",
       detail:
         "Strengthens back, glutes, and hamstrings while opening chest and hip flexors.",
       video: "https://www.youtube.com/embed/Nm5qwS_Ps_Q?si=w1-2LWB-jQ4yWFLm&start=7",
@@ -48,7 +48,7 @@ export default function intermediateYoga() {
     },
     {
       name: "Chair Pose (Utkatasana)",
-      img: "/images/YOGA IMAGES/INTERMEDIATE/chair-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/INTERMEDIATE/chair-pose.jpg",
       detail:
         "Powerful leg and core builder; heats the body and trains upright alignment.",
       video: "https://www.youtube.com/embed/tEZhXr0FuAQ?si=UyFxQcqoJTnsqeLY",
@@ -62,7 +62,7 @@ export default function intermediateYoga() {
     },
     {
       name: "Crow Pose (Bakasana)",
-      img: "/images/YOGA IMAGES/INTERMEDIATE/crow-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/INTERMEDIATE/crow-pose.jpg",
       detail:
         "Intro arm balance that develops wrist, arm, and deep core strength.",
       video: "https://www.youtube.com/embed/ja2eab4sWlM?si=NwnbTAACK09tg7Uw",
@@ -76,7 +76,7 @@ export default function intermediateYoga() {
     },
     {
       name: "Camel Pose (Ustrasana)",
-      img: "/images/YOGA IMAGES/INTERMEDIATE/camel-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/INTERMEDIATE/camel-pose.jpg",
       detail:
         "Deep backbend that opens chest, shoulders, and hip flexors; energizing.",
       video: "https://www.youtube.com/embed/_NNnowkcIqU?si=BMhQCsBCnsUp3Lb0",
@@ -90,7 +90,7 @@ export default function intermediateYoga() {
     },
     {
       name: "Dolphin Pose",
-      img: "/images/YOGA IMAGES/INTERMEDIATE/dolphin-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/INTERMEDIATE/dolphin-pose.jpg",
       detail:
         "Forearm inversion prep strengthening shoulders, lats, and core.",
       video: "https://www.youtube.com/embed/fbxtdLxYQfM?si=pPhLvANGAzi7t3ta&start=45",
@@ -104,7 +104,7 @@ export default function intermediateYoga() {
     },
     {
       name: "Revolved Triangle (Parivrtta Trikonasana)",
-      img: "/images/YOGA IMAGES/INTERMEDIATE/revolved-triangle.jpg",
+      img: "/IMAGES/YOGA IMAGES/INTERMEDIATE/revolved-triangle.jpg",
       detail:
         "Twisting standing pose to lengthen hamstrings and spine while toning core.",
       video: "https://www.youtube.com/embed/2hiXY5Sgsgo?si=j_EfDUMYle0_wsK2&start=7",

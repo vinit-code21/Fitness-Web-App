@@ -10,19 +10,19 @@ export default function WorkoutPage() {
     {
       name: "Beginner",
       path: "beginner",
-      img: "/images/beginner.jpg",
+      img: "/IMAGES/beginner.jpg",
       desc: "Perfect for those starting out. Focuses on form, basic movements, and building a fitness foundation.",
     },
     {
       name: "Intermediate",
       path: "intermediate",
-      img: "/images/intermediate.jpg",
+      img: "/IMAGES/intermediate.jpg",
       desc: "A balanced program with moderate intensity to improve strength, endurance, and mobility.",
     },
     {
       name: "Advanced",
       path: "advanced",
-      img: "/images/advanced.jpg",
+      img: "/IMAGES/advanced.jpg",
       desc: "Challenging workouts for experienced individuals aiming for peak strength and conditioning.",
     },
   ];

@@ -4,12 +4,12 @@ export default function Workouts() {
   const workouts = [
     {
       title: "Gain Weight",
-      image: "/images/gain.jpg",
+      image: "/IMAGES/gain.jpg",
       back: "Strength & hypertrophy workouts tailored for muscle growth. Includes compound lifts, progressive overload, and bulking plans.",
     },
     {
       title: "Lose Weight",
-      image: "/images/loss.jpg",
+      image: "/IMAGES/loss.jpg",
       back: "Fat-burning HIIT and cardio-based routines focused on shedding fat. Includes cardio, HIIT, and circuit training.",
     },
     {

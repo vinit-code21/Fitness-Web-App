@@ -6,7 +6,7 @@ export default function advancedYoga() {
   const poses = [
     {
       name: "Handstand (Adho Mukha Vrksasana)",
-      img: "/images/YOGA IMAGES/ADVANCED/handstand.jpg",
+      img: "/IMAGES/YOGA IMAGES/ADVANCED/handstand.jpg",
       detail:
         "A challenging inversion for immense upper body & core strength & improved balance & focus.",
       video: "https://www.youtube.com/watch?v=pnMQLrS5sTE&list=RDpnMQLrS5sTE&start_radio=1",
@@ -20,7 +20,7 @@ export default function advancedYoga() {
     },
     {
       name: "Forearm Stand (Pincha Mayurasana)",
-      img: "/images/YOGA IMAGES/ADVANCED/forearm-stand.jpg",
+      img: "/IMAGES/YOGA IMAGES/ADVANCED/forearm-stand.jpg",
       detail:
         "Strengthens shoulders, arms, and core while improving balance and flexibility.",
       video: "https://www.youtube.com/watch?v=pnMQLrS5sTE&list=RDpnMQLrS5sTE&start_radio=1",
@@ -34,7 +34,7 @@ export default function advancedYoga() {
     },
     {
       name: "King Pigeon Pose (Eka Pada Rajakapotasana)",
-      img: "/images/YOGA IMAGES/ADVANCED/king-pigeon.jpg",
+      img: "/IMAGES/YOGA IMAGES/ADVANCED/king-pigeon.jpg",
       detail:
         "Deep hip opener and backbend that stretches the thighs, groin, abdomen, and chest.",
       video: "https://www.youtube.com/watch?v=pnMQLrS5sTE&list=RDpnMQLrS5sTE&start_radio=1",
@@ -48,7 +48,7 @@ export default function advancedYoga() {
     },
     {
       name: "Bound Extended Side Angle (Baddha Utthita Parsvakonasana)",
-      img: "/images/YOGA IMAGES/ADVANCED/bound-side-angle.jpg",
+      img: "/IMAGES/YOGA IMAGES/ADVANCED/bound-side-angle.jpg",
       detail:
         "Requires deep hip and shoulder flexibility while building leg strength and stability.",
       video: "https://www.youtube.com/watch?v=pnMQLrS5sTE&list=RDpnMQLrS5sTE&start_radio=1",
@@ -62,7 +62,7 @@ export default function advancedYoga() {
     },
     {
       name: "Firefly Pose (Tittibhasana)",
-      img: "/images/YOGA IMAGES/ADVANCED/firefly.jpg",
+      img: "/IMAGES/YOGA IMAGES/ADVANCED/firefly.jpg",
       detail:
         "A challenging arm balance that strengthens arms & core, while deeply stretching hamstrings.",
       // Use the embed URL only (remove embedded iframe HTML which broke the JS string)
@@ -77,7 +77,7 @@ export default function advancedYoga() {
     },
     {
       name: "Scorpion Pose (Vrischikasana)",
-      img: "/images/YOGA IMAGES/ADVANCED/scorpion.jpg",
+      img: "/IMAGES/YOGA IMAGES/ADVANCED/scorpion.jpg",
       detail:
         "An advanced inversion and backbend requiring significant flexibility, balance, and core control.",
       video: "https://www.youtube.com/watch?v=pnMQLrS5sTE&list=RDpnMQLrS5sTE&start_radio=1",
@@ -91,7 +91,7 @@ export default function advancedYoga() {
     },
     {
       name: "Compass Pose (Parivrtta Surya Yantrasana)",
-      img: "/images/YOGA IMAGES/ADVANCED/compass.jpg",
+      img: "/IMAGES/YOGA IMAGES/ADVANCED/compass.jpg",
       detail:
         "Deep seated twist and hamstring stretch improving spinal mobility and leg flexibility.",
       video: "https://www.youtube.com/watch?v=pnMQLrS5sTE&list=RDpnMQLrS5sTE&start_radio=1",
@@ -105,7 +105,7 @@ export default function advancedYoga() {
     },
     {
       name: "Full Wheel Pose (Urdhva Dhanurasana)",
-      img: "/images/YOGA IMAGES/ADVANCED/full-wheel.jpg",
+      img: "/IMAGES/YOGA IMAGES/ADVANCED/full-wheel.jpg",
       detail:
         "A full-body backbend to open the chest, shoulders, and hips, and strengthen arms and legs.",
       video: "https://www.youtube.com/watch?v=pnMQLrS5sTE&list=RDpnMQLrS5sTE&start_radio=1",

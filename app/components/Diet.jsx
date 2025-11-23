@@ -38,7 +38,7 @@ export default function DietPlans() {
     {
       title: "Weight Gain Diet",
       description: "High-calorie meal plans with balanced macros for healthy bulking.",
-      image: "/images/gainDeit.jpg",
+      image: "/IMAGES/gainDeit.jpg",
     },
     {
       title: "Weight Loss Diet",

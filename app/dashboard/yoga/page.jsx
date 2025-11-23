@@ -9,19 +9,19 @@ export default function YogaPage() {
     {
       name: "Beginner",
       path: "beginner",
-      img: "/images/yoga-beginner.jpg",
+      img: "/IMAGES/yoga-beginner.jpg",
       desc: "Gentle poses for flexibility, balance, and relaxation. Ideal for those new to yoga.",
     },
     {
       name: "Intermediate",
       path: "intermediate",
-      img: "/images/yoga-intermediate.jpg",
+      img: "/IMAGES/yoga-intermediate.jpg",
       desc: "A mix of strength, flexibility, and mindfulness. Builds upon foundational yoga practices.",
     },
     {
       name: "Advanced",
       path: "advanced",
-      img: "/images/yoga-advanced.jpg",
+      img: "/IMAGES/yoga-advanced.jpg",
       desc: "Challenging poses and flows for experienced practitioners aiming to deepen their practice.",
     },
   ];

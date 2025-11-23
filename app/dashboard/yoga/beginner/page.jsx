@@ -6,7 +6,7 @@ export default function BeginnerYoga() {
   const poses = [
     {
       name: "Mountain Pose (Tadasana)",
-      img: "/images/YOGA IMAGES/BEGINNER/mountain-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/BEGINNER/mountain-pose.jpg",
       detail:
         "Foundation of all standing poses—builds posture, grounding, and alignment.",
       video:
@@ -21,7 +21,7 @@ export default function BeginnerYoga() {
     },
     {
       name: "Child's Pose (Balasana)",
-      img: "/images/YOGA IMAGES/BEGINNER/child-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/BEGINNER/child-pose.jpg",
       detail:
         "Restorative pose that gently stretches back, hips, and thighs; great reset.",
       video:
@@ -36,7 +36,7 @@ export default function BeginnerYoga() {
     },
     {
       name: "Downward-Facing Dog (Adho Mukha Svanasana)",
-      img: "/images/YOGA IMAGES/BEGINNER/downward-dog.jpg",
+      img: "/IMAGES/YOGA IMAGES/BEGINNER/downward-dog.jpg",
       detail:
         "Full-body stretch + mild inversion; builds shoulder and core strength.",
       video:
@@ -51,7 +51,7 @@ export default function BeginnerYoga() {
     },
     {
       name: "Warrior II (Virabhadrasana II)",
-      img: "/images/YOGA IMAGES/BEGINNER/warrior-2.jpg",
+      img: "/IMAGES/YOGA IMAGES/BEGINNER/warrior-2.jpg",
       detail:
         "Strengthens legs and core while opening hips and chest; builds stamina.",
       video:
@@ -66,7 +66,7 @@ export default function BeginnerYoga() {
     },
     {
       name: "Cat–Cow (Marjaryasana–Bitilasana)",
-      img: "/images/YOGA IMAGES/BEGINNER/cat-cow.jpg",
+      img: "/IMAGES/YOGA IMAGES/BEGINNER/cat-cow.jpg",
       detail:
         "Gentle spinal warm-up improving mobility and breath coordination.",
       video:
@@ -81,7 +81,7 @@ export default function BeginnerYoga() {
     },
     {
       name: "Tree Pose (Vrksasana)",
-      img: "/images/YOGA IMAGES/BEGINNER/tree-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/BEGINNER/tree-pose.jpg",
       detail:
         "Balances and strengthens legs/ankles; improves focus and steadiness.",
       video:
@@ -96,7 +96,7 @@ export default function BeginnerYoga() {
     },
     {
       name: "Cobra Pose (Bhujangasana)",
-      img: "/images/YOGA IMAGES/BEGINNER/cobra-pose.jpg",
+      img: "/IMAGES/YOGA IMAGES/BEGINNER/cobra-pose.jpg",
       detail:
         "Gentle backbend that strengthens back and opens chest and abdomen.",
       video:
@@ -111,7 +111,7 @@ export default function BeginnerYoga() {
     },
     {
       name: "Seated Forward Bend (Paschimottanasana)",
-      img: "/images/YOGA IMAGES/BEGINNER/seated-forward-bend.jpg",
+      img: "/IMAGES/YOGA IMAGES/BEGINNER/seated-forward-bend.jpg",
       detail:
         "Elongates hamstrings and spine; encourages calm, introspective breath.",
       video:
